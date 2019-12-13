@@ -67,18 +67,19 @@ h1, h2, h3, h4, h5 {
 
 
 .navbar{
-	display: inline;
-	width: 100px;
-	padding: 10px;
-	margin: 70px;
-	text-decoration: none;
+	display: flex;
+    justify-content: space-evenly;
+    text-decoration: 
 
 }
 
 nav a {
-	margin: 20px 55px 30px 20px;
+	
 	color:gray;
 	text-decoration: none;
+	margin-bottom: 1%;
+    margin-top: auto;
+}
 
 }
 nav a:hover {
@@ -190,4 +191,79 @@ margin-left: 10%;
 	text-align: center;
 	width: 100%;
 
+}
+/*-------------------------------------services CSS---------------------------*/
+
+
+
+.navbar-services{
+	display: flex;
+	position: fixed;
+	overflow: hidden;
+	top: 0;
+	width: 77%;
+    justify-content: space-between;
+    text-decoration: none;
+    margin-left: 2%;
+	background: #F5F5F5;
+}
+.logo{
+	display: flex;
+	margin-bottom: 1%;
+	margin-top: auto;
+	padding-right: 33%;
+}
+.top-contentservices{
+	margin: 1%;
+}
+.services-header{
+	padding-right: 28%;
+}
+.services-header-img{
+	width: 70%;
+    margin-top: 5%;
+    padding-left: 2%;
+}
+.main-contentservices{
+	border: none;
+	display: flex;
+	flex-direction: row;
+	
+}
+.our-services{
+column-count:2;  
+width: 70%;
+padding: 2%;
+column-gap: 5%;
+
+
+
+}
+.services-text{
+	border: 1px solid;
+	background-color: #F5F5F5;
+	width: 100%;
+margin-bottom: 7%;
+	padding: 5%;
+	
+}
+.some-facts {
+	display: flex;
+	flex-direction: row;
+	padding-left: 2%;
+	
+	
+}
+.facts-tiltle{
+	
+	width: 30%;
+}
+
+
+
+.services-info-img{
+	padding-left: 6%;
+}
+footer{
+	text-align: center;
 }
