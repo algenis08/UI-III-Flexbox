@@ -64,3 +64,130 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
+
+.navbar{
+	display: inline;
+	width: 100px;
+	padding: 10px;
+	margin: 70px;
+	text-decoration: none;
+
+}
+
+nav a {
+	margin: 20px 55px 30px 20px;
+	color:gray;
+	text-decoration: none;
+
+}
+nav a:hover {
+color: blue
+transform: scale(1.1);
+  box-shadow: 0 0 15px blue;
+}
+.ion{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content:flex-start;
+	margin-left: 7%;
+	
+}
+.ion-text{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	margin-left: 1%;
+	
+	text-align: center;
+	
+}
+.main-heading{
+	display:flex;
+	
+	
+
+}
+h1{
+	font-size: 80px;
+	padding-left: 10%;
+}
+.button {
+	background-color: transparent 
+	border: none;
+	color: black;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	cursor: pointer;
+}
+
+.top-img {
+margin-left: 10%;
+
+}
+
+
+
+
+
+.top-section {
+	
+	width: 85%;
+	padding-left: 3%;
+	margin:auto;
+	
+	
+}
+.top-class{
+	display: flex;
+	justify-content: space-around;
+	padding-right:3%;
+	
+}
+	
+.text-content{
+
+	padding-right: 5%;
+	
+}
+.middle-img {
+	margin:2%;
+	width: 91%;
+	}
+	
+}
+
+.bottom-section{
+	border: solid;
+	width: 85%;
+	padding-left: 3%;
+
+	
+}
+.bottom{
+	display: flex;
+	justify-content: space-evenly;
+}
+
+.bottom-content{
+	padding: 1%;
+
+
+}
+
+
+.contact {
+	text-align: left;
+	width: 150px;
+	height: 150px;
+
+}
+
+.copyright {
+	text-align: center;
+	width: 100%;
+
+}
