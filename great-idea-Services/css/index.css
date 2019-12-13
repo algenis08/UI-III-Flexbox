@@ -68,8 +68,14 @@ h1, h2, h3, h4, h5 {
 
 .navbar{
 	display: flex;
-    justify-content: space-evenly;
-    text-decoration: 
+	position: fixed;
+	overflow: hidden;
+	top: 0;
+	width: 100%;
+    justify-content: space-between;
+    text-decoration: none;
+    margin-left: 2%;
+	background: #F5F5F5;
 
 }
 
@@ -81,19 +87,16 @@ nav a {
     margin-top: auto;
 }
 
-}
-nav a:hover {
-color: blue
-transform: scale(1.1);
-  box-shadow: 0 0 15px blue;
-}
+
 .ion{
 	display: flex;
 	flex-wrap: wrap;
 	justify-content:flex-start;
 	margin-left: 7%;
-	
+	margin-top: 5%;
 }
+	
+
 .ion-text{
 	display: flex;
 	flex-direction: column;
