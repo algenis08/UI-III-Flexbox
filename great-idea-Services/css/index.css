@@ -239,8 +239,15 @@ width: 70%;
 padding: 2%;
 column-gap: 5%;
 
+}
 
-
+.learnmore-button {
+	
+	padding: 15px 32px;
+	text-align: center;
+	display:flex;
+	font-size: 16px;
+	cursor: pointer;
 }
 .services-text{
 	border: 1px solid;
